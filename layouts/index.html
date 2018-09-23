@@ -15,7 +15,6 @@
 		<hr>
 		{{.Site.Params.hero}}
 		{{ partial "hero.html" (dict "block" .Site.Params.hero "params" $.Site.Params "next" (index $list 0)) }}
-		<!-- {{ partial "2-up" .Params }} -->
 		{{.Params.test.title}}
 		{{ range $index, $element := $list }}
 			{{ $last := eq $index (sub (len $list) 1) }}
