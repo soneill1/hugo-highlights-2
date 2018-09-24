@@ -19,7 +19,5 @@ testblock:
       lorem ipsum dolor lorem magna consequat sed etiam adipiscing
       interdum.            
     title: One more thing (From Content Directory)
-  - description: '123'
-    title: Test Post
 ---
 
