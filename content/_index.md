@@ -31,9 +31,11 @@ testblock:
     picture: pic03.jpg
     title: One more thing (From Content Directory)
     type: text
-  - description: My awesome test description!
-    id: new
-    picture: /img/4035414_lookbook-mloe-ballet.jpg
+  - buttontext: next
+    description: My awesome test description!
+    id: newId
+    picture: pic03.jpg
     title: my new test
+    type:text
 ---
 
