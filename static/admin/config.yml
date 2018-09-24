@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Testblock, name: testblock, widget: list, fields: [
               {label: "Id", name: "id", widget: string},
-              {label: "Type", name: "type", widget: "hidden", default: "text"},
+              {label: "Type", name: "type", widget: string, default: "text"},
               {label: "Buttontext", name: "buttontext", widget: "hidden", default: "next"},
               {label: "Title", name: "title", widget: string},
               {label: "Picture", name: "picture", widget: image},
