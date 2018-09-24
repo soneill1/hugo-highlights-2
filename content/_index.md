@@ -36,6 +36,6 @@ testblock:
     id: newId
     picture: pic03.jpg
     title: my new test
-    type:text
+    type: text
 ---
 
