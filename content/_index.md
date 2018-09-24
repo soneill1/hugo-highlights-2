@@ -42,5 +42,9 @@ testblock:
     picture: /img/4035414_lookbook-mloe-ballet.jpg
     title: Cool title
     type: text
+  - description: This is a testttt
+    id: anotherrr
+    picture: /img/4035414_lookbook-mloe-ballet.jpg
+    title: Anotherrr test
 ---
 
