@@ -37,5 +37,10 @@ testblock:
     picture: pic03.jpg
     title: my new test
     type: text
+  - description: Another description
+    id: another new id
+    picture: /img/4035414_lookbook-mloe-ballet.jpg
+    title: Cool title
+    type: text
 ---
 
