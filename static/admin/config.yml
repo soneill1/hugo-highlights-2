@@ -13,7 +13,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         create: true
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Title, name: title, widget: hidden, default: "test123"}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Testblock, name: testblock, widget: list, fields: [
               {label: "Id", name: "id", widget: string},
