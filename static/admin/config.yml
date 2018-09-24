@@ -11,6 +11,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
