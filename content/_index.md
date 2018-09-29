@@ -1,6 +1,4 @@
 ---
-title: Great coffee with a conscience by Sean
-subtitle: Support sustainable farming while enjoying a cup
 testblock:
   - buttontext: next
     description: >-
