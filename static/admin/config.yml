@@ -18,8 +18,8 @@ collections: # A list of collections the CMS should be able to edit
             disableAdd: true
             fields:
               - {label: "Id", name: "id", widget: string}
-              - {label: "Type", name: "type", widget: string, default: "text"}
-              - {label: "Buttontext", name: "buttontext", widget: "string", default: "next"}
+              - {label: "Type", name: "type", widget: hidden, default: "text"}
+              - {label: "Buttontext", name: "buttontext", widget: "hidden", default: "next"}
               - {label: "Title", name: "title", widget: string}
               - {label: "Picture", name: "picture", widget: image}
               - {label: "Description", name: "description", widget: "text"}
