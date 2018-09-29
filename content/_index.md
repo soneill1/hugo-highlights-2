@@ -40,9 +40,5 @@ testblock:
     picture: /img/4035414_lookbook-mloe-ballet.jpg
     title: Cool title
     type: text
-  - description: Awesome Description
-    id: Awesome
-    picture: /img/4035414_lookbook-mloe-ballet.jpg
-    title: Awesome Title
 ---
 
