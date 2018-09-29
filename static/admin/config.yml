@@ -11,6 +11,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
+        disableAdd: true
         fields:
           - name: testblock
             label: Testblock 
