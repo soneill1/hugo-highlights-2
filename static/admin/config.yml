@@ -11,12 +11,11 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
-        disableAdd: true
         fields:
           - name: testblock
             label: Testblock 
             widget: list
-            disableAdd: "true"
+            disableAdd: false
             fields:
               - {label: "Id", name: "id", widget: string}
               - {label: "Type", name: "type", widget: hidden, default: "text"}
