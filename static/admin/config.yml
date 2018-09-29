@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
           - name: testblock
             label: Testblock 
             widget: list
-            disableAdd: true
+            disableAdd: "true"
             fields:
               - {label: "Id", name: "id", widget: string}
               - {label: "Type", name: "type", widget: hidden, default: "text"}
